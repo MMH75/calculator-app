@@ -1,0 +1,48 @@
+.calc-button {
+    height: 70px;
+    width: 70px;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+    background: #f3f3f3;
+}
+
+.calc-button:hover {
+    background: #dddddd;
+}
+
+.calc-button:active {
+    transform: scale(0.95);
+}
+
+/* Different Button Types */
+
+.number-button {
+    background: gray;
+    color: white;
+}
+
+.operator-button {
+    background: orange;
+    color: white;
+}
+
+.clear-button {
+    background: red;
+    color: white;
+}
+
+.equal-button {
+    background: rgb(1, 161, 1);
+    color: white;
+    grid-column: span 2;
+    width: 100%;
+}
